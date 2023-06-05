@@ -1,0 +1,16 @@
+PODS:
+  - MusicPodLibrary (0.1.0)
+
+DEPENDENCIES:
+  - MusicPodLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MusicPodLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MusicPodLibrary: 4471e5316ab0a2cb9745cf92b483fa53430cb698
+
+PODFILE CHECKSUM: 89861310f1ce35620232d6c44b6a7e12af0a5dbe
+
+COCOAPODS: 1.12.1
