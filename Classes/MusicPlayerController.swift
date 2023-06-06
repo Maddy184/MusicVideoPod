@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 
 
-class MusicPlayerViewController: UIViewController {
+public class MusicPlayerViewController: UIViewController {
     
     var imageView : UIImageView = UIImageView()
     var musicLabel: UILabel = UILabel()
@@ -25,14 +25,14 @@ class MusicPlayerViewController: UIViewController {
     var volumeSlider:UISlider = UISlider()
     
     
-    var audioPlayer = AVAudioPlayer()
-    var musicName:URL?
-    var musiclabel:URL?
-    var musicNextTrack:String?
-    var currentIndex = 0
-    var audioFiles:[URL]?
+    public var audioPlayer = AVAudioPlayer()
+    public var musicName:URL?
+    public var musiclabel:URL?
+    public var musicNextTrack:String?
+    public var currentIndex = 0
+    public var audioFiles:[URL]?
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         //        setup()
         //        self.navigationController?.navigationBar.isHidden = true
@@ -45,11 +45,11 @@ class MusicPlayerViewController: UIViewController {
         
         //        Slider.maximumValue = Float(audioPlayer.duration)
         //        PlayPause.setImage(UIImage(systemName: "pause.fill"), for: .normal)
-        volumeSlider.value = audioPlayer.volume 
+        volumeSlider.value = audioPlayer.volume
         volumeSlider.addTarget(self, action: #selector(volumeSliderChanged(_:)), for: .valueChanged)
         
     }
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tabBarController?.tabBar.isHidden = true
         setupImageiView()
@@ -71,7 +71,7 @@ class MusicPlayerViewController: UIViewController {
         durationEndTrack.text = String(format: "%d:%02d", totalMinutes, totalSeconds)
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
+    public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         if self.isMovingFromParentViewController {
             audioPlayer.stop()
