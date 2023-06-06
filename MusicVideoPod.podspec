@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Classes/**/*.swift'
   
-  # s.resource_bundles = {
-  #   'MusicVideoPod' => ['MusicVideoPod/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'MusicVideoPod' => ['MusicVideoPod/Assets/Image.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

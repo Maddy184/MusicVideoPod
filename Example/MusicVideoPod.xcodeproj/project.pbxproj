@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EA8AB76783C7610EF2D491 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		05CAA6AEB2FC41134F31B83B /* MusicVideoPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MusicVideoPod.podspec; path = ../MusicVideoPod.podspec; sourceTree = "<group>"; };
+		02EA8AB76783C7610EF2D491 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		05CAA6AEB2FC41134F31B83B /* MusicVideoPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MusicVideoPod.podspec; path = ../MusicVideoPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		115234E80DA69EDF1B3F670F /* Pods-MusicVideoPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicVideoPod_Example.release.xcconfig"; path = "Target Support Files/Pods-MusicVideoPod_Example/Pods-MusicVideoPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1EF789A1AE68738A3A901A8C /* Pods-MusicVideoPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicVideoPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-MusicVideoPod_Tests/Pods-MusicVideoPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MusicVideoPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicVideoPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* MusicVideoPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVideoPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7BE55FE30E3E48F85CB165FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7BE55FE30E3E48F85CB165FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C33B93A8FBEB3FDF27B585D9 /* Pods_MusicVideoPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicVideoPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43EE587AFAAF701EE0EDEC2 /* Pods-MusicVideoPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicVideoPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-MusicVideoPod_Example/Pods-MusicVideoPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C59A4DE83EE26EE796A0C120 /* Pods_MusicVideoPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicVideoPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				FCD59F53D9D2275D5CC36452 /* Pods-MusicVideoPod_Tests.debug.xcconfig */,
 				1EF789A1AE68738A3A901A8C /* Pods-MusicVideoPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
