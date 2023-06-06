@@ -66,15 +66,15 @@ public class AudioPlayerViewController: UIViewController {
         
         
         previousButton.translatesAutoresizingMaskIntoConstraints = false
-        previousButton.setImage(UIImage(systemName: "arrowshape.left"), for: .normal)
+//        previousButton.setImage(UIImage(systemName: "arrowshape.left"), for: .normal)
         previousButton.addTarget(self, action: #selector(audioClass.previousTrackChanging), for: .touchUpInside)
         
         playButton.translatesAutoresizingMaskIntoConstraints = false
-        playButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
+//        playButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
         playButton.addTarget(self, action: #selector(audioClass.musicPlayButtonTapped), for: .touchUpInside)
         
         nextButton.translatesAutoresizingMaskIntoConstraints = false
-        nextButton.setImage(UIImage(systemName: "arrowshape.right"), for: .normal)
+//        nextButton.setImage(UIImage(systemName: "arrowshape.right"), for: .normal)
         nextButton.addTarget(self, action: #selector(audioClass.nextTrackChanging), for: .touchUpInside)
         
         stackView.axis = .horizontal

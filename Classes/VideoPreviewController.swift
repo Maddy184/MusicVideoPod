@@ -41,7 +41,7 @@ public class VideoPreviewViewController: UIViewController {
         stackView.axis = .horizontal
         self.view.addSubview(stackView)
         nextButtonOutlet.translatesAutoresizingMaskIntoConstraints = false
-        nextButtonOutlet.setImage(UIImage(systemName: "arrow.clockwise"), for: .normal)
+//        nextButtonOutlet.setImage(UIImage(systemName: "arrow.clockwise"), for: .normal)
         stackView.addArrangedSubview(PreviousOutlet)
         stackView.addArrangedSubview(playButtonOutlet)
         //        stackView.addArrangedSubview(pauseButtonOutlet)
@@ -61,11 +61,11 @@ public class VideoPreviewViewController: UIViewController {
         
         
         PreviousOutlet.translatesAutoresizingMaskIntoConstraints = false
-        PreviousOutlet.setImage(UIImage(systemName: "arrow.counterclockwise"), for: .normal)
+//        PreviousOutlet.setImage(UIImage(systemName: "arrow.counterclockwise"), for: .normal)
         playButtonOutlet.translatesAutoresizingMaskIntoConstraints = false
-        playButtonOutlet.setImage(UIImage(systemName: "pause.fill"), for: .normal)
+//        playButtonOutlet.setImage(UIImage(systemName: "pause.fill"), for: .normal)
         pauseButtonOutlet.translatesAutoresizingMaskIntoConstraints = false
-        pauseButtonOutlet.setImage(UIImage(systemName: "pause.fill"), for: .normal)
+//        pauseButtonOutlet.setImage(UIImage(systemName: "pause.fill"), for: .normal)
         
         videoCurrentTimeLabel.translatesAutoresizingMaskIntoConstraints = false
         videoDurationTimeLabel.translatesAutoresizingMaskIntoConstraints = false

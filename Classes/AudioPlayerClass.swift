@@ -99,12 +99,12 @@ public class AudioPlayerView {
         let duration = Int(audioPlayer.duration)
         let minutes2 = duration / 60
         let seconds2 = duration - minutes2 * 60
-        var durStart = NSString(format: "%02d:%02d", minutes2, seconds2) as String
+//        let durStart = NSString(format: "%02d:%02d", minutes2, seconds2) as String
         // print("Hello")
         let totalTime = Int(audioPlayer.duration)
         let totalMinutes = totalTime / 60
         let totalSeconds = totalTime % 60
-        var durationEndTrack = String(format: "%d:%02d", totalMinutes, totalSeconds)
+//        let durationEndTrack = String(format: "%d:%02d", totalMinutes, totalSeconds)
     }
     
     public func sliderTime() {
@@ -116,7 +116,7 @@ public class AudioPlayerView {
         let currentTime1 = Int(audioPlayer.currentTime)
         let minutes = currentTime1 / 60
         let seconds = currentTime1 - minutes * 60
-        var durEnd = NSString(format: "%02d:%02d", minutes, seconds) as String
+//        let durEnd = NSString(format: "%02d:%02d", minutes, seconds) as String
         // durationStartTrack.text = durEnd
     }
 }
