@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'Classes/**/*.swift'
   
    s.resource_bundles = {
-     'MusicVideoPod' => ['MusicVideoPod/Assets/Image.png']
+     'MusicVideoPod' => ['MusicVideoPod/Assets/*.png']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

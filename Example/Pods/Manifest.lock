@@ -1,0 +1,16 @@
+PODS:
+  - MusicVideoPod (0.2.0)
+
+DEPENDENCIES:
+  - MusicVideoPod (from `../`)
+
+EXTERNAL SOURCES:
+  MusicVideoPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MusicVideoPod: 050f8fb36ac0cebd0510f807e82e4250b2e57442
+
+PODFILE CHECKSUM: a4721665203cd214afe19ceacf475926e135e02a
+
+COCOAPODS: 1.12.1
