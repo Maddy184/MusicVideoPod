@@ -11,6 +11,7 @@
 		1F5C06E1ABEA1AA9FAE0CFE2BD949405 /* Pods-MusicVideoPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1B1F99C754B83C4FD0E43B2D2D3230 /* Pods-MusicVideoPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		204E82929CBC96CF6D6FFE3A78529114 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3C46FB606BA1C8C3FDB3A56ECD36E /* AudioPlayerViewController.swift */; };
 		21B6DD586F1039F4ADC6180CB2132BC7 /* AudioPlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE77D53B12F9A50925124A10C6639E3D /* AudioPlayerClass.swift */; };
+		2D00E8302A30536B009EC975 /* ImageAsses.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D00E82F2A30536B009EC975 /* ImageAsses.xcassets */; };
 		35941DADA70A6A72B967A8A233268FA3 /* Pods-MusicVideoPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F1BF19F089E2EF7E47ADDEC6E16DCC /* Pods-MusicVideoPod_Tests-dummy.m */; };
 		4AAA52ABBD27C5D9C3E669E5273CA6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4DF69B0193F9528FB1FBA349B4E0882C /* ImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0DD90932B370E1289A78B0D62E667 /* ImagePreviewController.swift */; };
@@ -18,7 +19,6 @@
 		947333E33DAF32037FDF976E24D5DD14 /* VideoPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0154192C4C12DBE38B6A18D61BF86D7 /* VideoPreviewController.swift */; };
 		95790B4013FFF572345218D303300234 /* Pods-MusicVideoPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 257CE5FB4928AD5C381DA04A7A823C27 /* Pods-MusicVideoPod_Example-dummy.m */; };
 		9FADE828B6E02B71C6346970F6FBF66D /* MusicVideoPod-MusicVideoPod in Resources */ = {isa = PBXBuildFile; fileRef = F1147327C4651E9975E258A156673D55 /* MusicVideoPod-MusicVideoPod */; };
-		AC0022FC3A445870B5C490972E7C6FC1 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F8146D001998FF57EA0BF65B0B511 /* Image.png */; };
 		B5EAB05AE87DC61451F979B3F5B0A590 /* ImagePreviewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372BD154762CAE96F145C720D272D53 /* ImagePreviewClass.swift */; };
 		B96A05E704BC2265CB3978921D7F8199 /* MusicVideoPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4892F16F3E2891466543709B4C710B9 /* MusicVideoPod-dummy.m */; };
 		BF091169FD3EA1F52D504F39295FC506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -57,32 +57,32 @@
 		064A7009D3CD45FF42E334C3FF6E399D /* VideoPreviewClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPreviewClass.swift; path = Classes/VideoPreviewClass.swift; sourceTree = "<group>"; };
 		06CB8CB4D8D498575E0D3A1E2B355480 /* MusicPlayerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicPlayerController.swift; path = Classes/MusicPlayerController.swift; sourceTree = "<group>"; };
 		087DF314B8D29B96717A5AE731B85EDC /* MusicVideoPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MusicVideoPod.release.xcconfig; sourceTree = "<group>"; };
-		0D2F8146D001998FF57EA0BF65B0B511 /* Image.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Image.png; path = MusicVideoPod/Assets/Image.png; sourceTree = "<group>"; };
 		0FE3C46FB606BA1C8C3FDB3A56ECD36E /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioPlayerViewController.swift; path = Classes/AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		14B0DD90932B370E1289A78B0D62E667 /* ImagePreviewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePreviewController.swift; path = Classes/ImagePreviewController.swift; sourceTree = "<group>"; };
 		257CE5FB4928AD5C381DA04A7A823C27 /* Pods-MusicVideoPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicVideoPod_Example-dummy.m"; sourceTree = "<group>"; };
+		2D00E82F2A30536B009EC975 /* ImageAsses.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAsses.xcassets; sourceTree = "<group>"; };
 		3157DC9F4E878B8721CBC7BEC1A91DEA /* Pods-MusicVideoPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicVideoPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		35BAA360515C9CBC5A28038120CB44B2 /* Pods-MusicVideoPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicVideoPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		37CFD6B963CDF484A134F0859E05EB02 /* Pods-MusicVideoPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicVideoPod_Example-Info.plist"; sourceTree = "<group>"; };
 		4B24B97DC6749C837D1851FFC1D73A4A /* Pods-MusicVideoPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicVideoPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4E2867FEEB5AD4A802997B394F72B186 /* Pods-MusicVideoPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicVideoPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		63A2BEA012948D5A62D8EA2C7D3EDC39 /* MusicVideoPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MusicVideoPod.modulemap; sourceTree = "<group>"; };
-		6D69F996A7069D7DCCFC5B4D48848A75 /* MusicVideoPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MusicVideoPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D69F996A7069D7DCCFC5B4D48848A75 /* MusicVideoPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MusicVideoPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7FD1047CC1411B20DDE278E8DE3224BF /* MusicVideoPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MusicVideoPod-Info.plist"; sourceTree = "<group>"; };
 		8C859BE9B5F1BC90953871224A80E2DF /* Pods-MusicVideoPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MusicVideoPod_Tests"; path = Pods_MusicVideoPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		958219CBECEB198BCC08D5ECCB13C56E /* Pods-MusicVideoPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusicVideoPod_Example.modulemap"; sourceTree = "<group>"; };
 		975877B054C999EFEF7B42B5DE325243 /* Pods-MusicVideoPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicVideoPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B0154192C4C12DBE38B6A18D61BF86D7 /* VideoPreviewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPreviewController.swift; path = Classes/VideoPreviewController.swift; sourceTree = "<group>"; };
-		B3EF2FCB397FB33D1565DC78733A58A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3EF2FCB397FB33D1565DC78733A58A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4892F16F3E2891466543709B4C710B9 /* MusicVideoPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MusicVideoPod-dummy.m"; sourceTree = "<group>"; };
 		BBE6337B22D61136A49C294B8EF2EE58 /* Pods-MusicVideoPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicVideoPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE2DC696D588C5642FF8F231DC916833 /* MusicVideoPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MusicVideoPod-umbrella.h"; sourceTree = "<group>"; };
 		BE82437F1C7530FC1138E0F6A18F2CE1 /* Pods-MusicVideoPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicVideoPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5F1BF19F089E2EF7E47ADDEC6E16DCC /* Pods-MusicVideoPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicVideoPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		C6396332CA49CA1E86A78BC8B6D9FA39 /* Pods-MusicVideoPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicVideoPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C756B438C6FA2C1F9F7B2A84214A17C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C756B438C6FA2C1F9F7B2A84214A17C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C78CCC95DD459704E130039D13F18206 /* MusicVideoPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MusicVideoPod-prefix.pch"; sourceTree = "<group>"; };
 		CAA41CE4B8FC39F4DDFDCAE31BCF1C9B /* ResourceBundle-MusicVideoPod-MusicVideoPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MusicVideoPod-MusicVideoPod-Info.plist"; sourceTree = "<group>"; };
 		CBC9027246154571EF3B80E5824AAA6F /* Pods-MusicVideoPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicVideoPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -147,6 +147,14 @@
 			path = "Example/Pods/Target Support Files/MusicVideoPod";
 			sourceTree = "<group>";
 		};
+		2D00E82E2A30534B009EC975 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E82F2A30536B009EC975 /* ImageAsses.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		381B8840AD762E69AA9D38F56D2FFBE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +169,7 @@
 		3C5DE5222974E22E62D869A5E5DEC55A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				2D00E82E2A30534B009EC975 /* Resources */,
 				610CB4D08E4EAA799ED39B463A2C07CD /* MusicVideoPod */,
 			);
 			name = "Development Pods";
@@ -179,7 +188,6 @@
 			children = (
 				DE77D53B12F9A50925124A10C6639E3D /* AudioPlayerClass.swift */,
 				0FE3C46FB606BA1C8C3FDB3A56ECD36E /* AudioPlayerViewController.swift */,
-				0D2F8146D001998FF57EA0BF65B0B511 /* Image.png */,
 				F372BD154762CAE96F145C720D272D53 /* ImagePreviewClass.swift */,
 				14B0DD90932B370E1289A78B0D62E667 /* ImagePreviewController.swift */,
 				06CB8CB4D8D498575E0D3A1E2B355480 /* MusicPlayerController.swift */,
@@ -402,7 +410,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0022FC3A445870B5C490972E7C6FC1 /* Image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FADE828B6E02B71C6346970F6FBF66D /* MusicVideoPod-MusicVideoPod in Resources */,
+				2D00E8302A30536B009EC975 /* ImageAsses.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,8 +689,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -97,6 +97,7 @@ public class MusicPlayerViewController: UIViewController {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
         imageView.image = UIImage(named: "Image")
+        
         self.view.addSubview(imageView)
         
         musicLabel.translatesAutoresizingMaskIntoConstraints = false

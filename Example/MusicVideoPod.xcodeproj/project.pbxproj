@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D00E82B2A303D79009EC975 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E8272A303D78009EC975 /* AudioViewController.swift */; };
+		2D00E82C2A303D79009EC975 /* MusicCellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D00E8292A303D79009EC975 /* MusicCellVC.xib */; };
+		2D00E82D2A303D79009EC975 /* MusicCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E82A2A303D79009EC975 /* MusicCellVC.swift */; };
+		2DFEF5F62A30B05400CDFF82 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5F52A30B05400CDFF82 /* PhotoCollectionViewCell.swift */; };
+		2DFEF5F92A30B07900CDFF82 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5F72A30B07900CDFF82 /* MyTabBarController.swift */; };
+		2DFEF5FA2A30B07900CDFF82 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5F82A30B07900CDFF82 /* PhotoCollectionViewController.swift */; };
+		2DFEF5FC2A30B1ED00CDFF82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5FB2A30B1ED00CDFF82 /* SceneDelegate.swift */; };
+		2DFEF5FE2A30B34B00CDFF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEF5FD2A30B34B00CDFF82 /* Main.storyboard */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -32,11 +39,18 @@
 		05CAA6AEB2FC41134F31B83B /* MusicVideoPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MusicVideoPod.podspec; path = ../MusicVideoPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		115234E80DA69EDF1B3F670F /* Pods-MusicVideoPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicVideoPod_Example.release.xcconfig"; path = "Target Support Files/Pods-MusicVideoPod_Example/Pods-MusicVideoPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1EF789A1AE68738A3A901A8C /* Pods-MusicVideoPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicVideoPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-MusicVideoPod_Tests/Pods-MusicVideoPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D00E8272A303D78009EC975 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		2D00E8292A303D79009EC975 /* MusicCellVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicCellVC.xib; sourceTree = "<group>"; };
+		2D00E82A2A303D79009EC975 /* MusicCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCellVC.swift; sourceTree = "<group>"; };
+		2DFEF5F52A30B05400CDFF82 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2DFEF5F72A30B07900CDFF82 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		2DFEF5F82A30B07900CDFF82 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		2DFEF5FB2A30B1ED00CDFF82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DFEF5FD2A30B34B00CDFF82 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MusicVideoPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicVideoPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MusicVideoPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVideoPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D00E8282A303D79009EC975 /* MusicCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D00E8292A303D79009EC975 /* MusicCellVC.xib */,
+				2D00E82A2A303D79009EC975 /* MusicCellVC.swift */,
+			);
+			path = MusicCell;
+			sourceTree = "<group>";
+		};
+		2DFEF5F42A30B05400CDFF82 /* VideoCell */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEF5F52A30B05400CDFF82 /* PhotoCollectionViewCell.swift */,
+			);
+			path = VideoCell;
+			sourceTree = "<group>";
+		};
 		5B169DA331360CEF411270A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,12 +133,18 @@
 		607FACD21AFB9204008FA782 /* Example for MusicVideoPod */ = {
 			isa = PBXGroup;
 			children = (
+				2DFEF5F72A30B07900CDFF82 /* MyTabBarController.swift */,
+				2DFEF5F82A30B07900CDFF82 /* PhotoCollectionViewController.swift */,
+				2DFEF5F42A30B05400CDFF82 /* VideoCell */,
+				2D00E8282A303D79009EC975 /* MusicCell */,
+				2D00E8272A303D78009EC975 /* AudioViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				2DFEF5FD2A30B34B00CDFF82 /* Main.storyboard */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				2DFEF5FB2A30B1ED00CDFF82 /* SceneDelegate.swift */,
 			);
 			name = "Example for MusicVideoPod";
 			path = MusicVideoPod;
@@ -246,9 +283,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				2D00E82C2A303D79009EC975 /* MusicCellVC.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				2DFEF5FE2A30B34B00CDFF82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +370,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2DFEF5F62A30B05400CDFF82 /* PhotoCollectionViewCell.swift in Sources */,
+				2DFEF5FA2A30B07900CDFF82 /* PhotoCollectionViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2D00E82D2A303D79009EC975 /* MusicCellVC.swift in Sources */,
+				2D00E82B2A303D79009EC975 /* AudioViewController.swift in Sources */,
+				2DFEF5F92A30B07900CDFF82 /* MyTabBarController.swift in Sources */,
+				2DFEF5FC2A30B1ED00CDFF82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +399,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -479,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MusicVideoPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MusicVideoPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
