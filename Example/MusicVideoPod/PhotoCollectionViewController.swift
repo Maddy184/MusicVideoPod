@@ -7,7 +7,6 @@
 
 import UIKit
 import AVKit
-import MusicVideoPod
 
 class PhotoCollectionViewController: UICollectionViewController,UICollectionViewDelegateFlowLayout {
     
@@ -20,8 +19,8 @@ class PhotoCollectionViewController: UICollectionViewController,UICollectionView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView!.collectionViewLayout = creatingLayout()
-        self.collectionView!.register(PhotoCollectionViewCell.self, forCellWithReuseIdentifier: PhotoCollectionViewCell.identifier)
+        collectionView.collectionViewLayout = creatingLayout()
+        self.collectionView.register(PhotoCollectionViewCell.self, forCellWithReuseIdentifier: PhotoCollectionViewCell.identifier)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(changingToNextVC))
         loadImagesFromFileManager()
         
@@ -57,7 +56,7 @@ class PhotoCollectionViewController: UICollectionViewController,UICollectionView
                     imgs.append(image)
                 }
             }
-            collectionView!.reloadData()
+            collectionView.reloadData()
         } catch {
             print("Error while enumerating files: \(error.localizedDescription)")
         }
@@ -76,9 +75,9 @@ class PhotoCollectionViewController: UICollectionViewController,UICollectionView
         let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
             print("Ok button tapped")
             let me = dialogMessage.textFields?.first?.text
-//            let vid = VideoPreviewViewController()
-//            vid.videoLink = me!
-//            self.navigationController?.pushViewController(vid, animated: true)
+            let vid = VideoPreviewerViewController()
+            vid.videoLink = me!
+            self.navigationController?.pushViewController(vid, animated: true)
         })
         dialogMessage.addAction(ok)
         self.present(dialogMessage, animated: true)
@@ -145,19 +144,19 @@ class PhotoCollectionViewController: UICollectionViewController,UICollectionView
             // Play video
             let videoURL = videoFileURLs[indexPath.item - imageFileURLs.count]
             let player = AVPlayer(url: videoURL)
-//            let videoVC = VideoPreviewerViewController()
-//            videoVC.videoURLs = videoURL
-//            self.navigationController?.pushViewController(videoVC, animated: true)
+            let videoVC = VideoPreviewerViewController()
+            videoVC.videoURLs = videoURL
+            self.navigationController?.pushViewController(videoVC, animated: true)
             
         }
         else {
             
             let ima = imgs[indexPath.row]
-//            let imagePreviewVC = imagePreviewViewController()
-//            self.navigationController?.pushViewController(imagePreviewVC, animated: true)
-//            imagePreviewVC.animal = imgs[indexPath.row]
-//            imagePreviewVC.img = imgs
-//            imagePreviewVC.currentIndex = indexPath.row
+            let imagePreviewVC = imagePreviewViewController()
+            self.navigationController?.pushViewController(imagePreviewVC, animated: true)
+            imagePreviewVC.animal = imgs[indexPath.row]
+            imagePreviewVC.img = imgs
+            imagePreviewVC.currentIndex = indexPath.row
         }
         
         
@@ -176,7 +175,7 @@ class PhotoCollectionViewController: UICollectionViewController,UICollectionView
         let section = NSCollectionLayoutSection(group: group)
         
         let layout = UICollectionViewCompositionalLayout(section: section)
-        collectionView!.collectionViewLayout = layout
+        collectionView.collectionViewLayout = layout
         
         return UICollectionViewCompositionalLayout(section: section)
     }

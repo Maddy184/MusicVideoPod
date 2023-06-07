@@ -17,7 +17,7 @@ class MyTabBarController: UITabBarController,UITabBarControllerDelegate {
         let firstViewController = UINavigationController(rootViewController: AudioViewController())//AudioViewController()
         let layout = UICollectionViewFlowLayout()
         let Vc = PhotoCollectionViewController(collectionViewLayout: layout)
-        Vc.collectionView!.register(PhotoCollectionViewCell.self, forCellWithReuseIdentifier: "dataCell")
+        Vc.collectionView.register(PhotoCollectionViewCell.self, forCellWithReuseIdentifier: "dataCell")
         let secondViewController = UINavigationController(rootViewController: Vc)
         firstViewController.navigationItem.title = "Music"
         firstViewController.tabBarItem = UITabBarItem(title: "Music", image: UIImage(systemName:"music.note.list"), tag: 0)
