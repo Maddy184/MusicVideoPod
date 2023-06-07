@@ -11,8 +11,6 @@
 		2D00E82C2A303D79009EC975 /* MusicCellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D00E8292A303D79009EC975 /* MusicCellVC.xib */; };
 		2D00E82D2A303D79009EC975 /* MusicCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00E82A2A303D79009EC975 /* MusicCellVC.swift */; };
 		2DFEF5F62A30B05400CDFF82 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5F52A30B05400CDFF82 /* PhotoCollectionViewCell.swift */; };
-		2DFEF5F92A30B07900CDFF82 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5F72A30B07900CDFF82 /* MyTabBarController.swift */; };
-		2DFEF5FA2A30B07900CDFF82 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5F82A30B07900CDFF82 /* PhotoCollectionViewController.swift */; };
 		2DFEF5FC2A30B1ED00CDFF82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEF5FB2A30B1ED00CDFF82 /* SceneDelegate.swift */; };
 		2DFEF5FE2A30B34B00CDFF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEF5FD2A30B34B00CDFF82 /* Main.storyboard */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -43,8 +41,6 @@
 		2D00E8292A303D79009EC975 /* MusicCellVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicCellVC.xib; sourceTree = "<group>"; };
 		2D00E82A2A303D79009EC975 /* MusicCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCellVC.swift; sourceTree = "<group>"; };
 		2DFEF5F52A30B05400CDFF82 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		2DFEF5F72A30B07900CDFF82 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
-		2DFEF5F82A30B07900CDFF82 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		2DFEF5FB2A30B1ED00CDFF82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DFEF5FD2A30B34B00CDFF82 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MusicVideoPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicVideoPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,8 +129,6 @@
 		607FACD21AFB9204008FA782 /* Example for MusicVideoPod */ = {
 			isa = PBXGroup;
 			children = (
-				2DFEF5F72A30B07900CDFF82 /* MyTabBarController.swift */,
-				2DFEF5F82A30B07900CDFF82 /* PhotoCollectionViewController.swift */,
 				2DFEF5F42A30B05400CDFF82 /* VideoCell */,
 				2D00E8282A303D79009EC975 /* MusicCell */,
 				2D00E8272A303D78009EC975 /* AudioViewController.swift */,
@@ -371,11 +365,9 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				2DFEF5F62A30B05400CDFF82 /* PhotoCollectionViewCell.swift in Sources */,
-				2DFEF5FA2A30B07900CDFF82 /* PhotoCollectionViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				2D00E82D2A303D79009EC975 /* MusicCellVC.swift in Sources */,
 				2D00E82B2A303D79009EC975 /* AudioViewController.swift in Sources */,
-				2DFEF5F92A30B07900CDFF82 /* MyTabBarController.swift in Sources */,
 				2DFEF5FC2A30B1ED00CDFF82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
